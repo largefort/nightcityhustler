@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk 2077 Idle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Night City Hustler</h1>
+      <div class="currency">
+        <span class="eddies">€$</span>
+        <span id="money">0</span>
+      </div>
+    </header>
+
+    <div class="game-area">
+      <div class="left-column">
+        <div id="click-area" class="resource-box">
+          <div class="neon-border">
+            <h2>Street Hustle</h2>
+            <div class="resource-info">
+              <p>€$ per click: <span id="click-power">1</span></p>
+              <p>Auto €$ per second: <span id="passive-income">0</span></p>
+            </div>
+            <button id="hustle-btn" class="cyber-button">HUSTLE</button>
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <h2>Skills</h2>
+          <div id="skills-list">
+            <!-- Skills will be populated here -->
+          </div>
+        </div>
+
+        <div class="achievements-box">
+          <h2>Achievements</h2>
+          <div id="achievements-list">
+            <!-- Achievements will be populated here -->
+          </div>
+        </div>
+      </div>
+
+      <div class="upgrades">
+        <div class="upgrade-box">
+          <h2>Upgrades</h2>
+          <div id="upgrade-list">
+            <!-- Upgrades will be populated here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="game.js"></script>
+</body>
+</html>
